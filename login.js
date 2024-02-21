@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.cookie = `username=${username}`;
 
             // Redirige al usuario a la página principal con el nombre como parámetro en la URL
-            window.location.href = `index.html?username=${username}`;
+            window.location.href = `index.html?username=Hola ${username}!`;
         } else {
             alert("Por favor, ingresa tu nombre.");
         }
